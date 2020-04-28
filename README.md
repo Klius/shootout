@@ -8,3 +8,8 @@ or
 ```
 pip install windows-curses
 ```
+
+run it by typing:
+```
+python shootoutv2.py
+```
