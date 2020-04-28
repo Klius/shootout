@@ -11,9 +11,9 @@ def loop():
 	update(key)
 	draw()
 	if gameover :
-		key=raw_input('\n(R)einiciar|(S)alir: ')
+		key=input('\n(R)einiciar|(S)alir: ')
 	else:
-		key=raw_input('\n(A)puntar|(D)isparar|(C)ubrirse: ')
+		key=input('\n(A)puntar|(D)isparar|(C)ubrirse: ')
 	player = resetActions(player)
 	player2 = resetActions(player2)
 
